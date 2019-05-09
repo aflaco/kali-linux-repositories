@@ -18,6 +18,6 @@ Type This Command on Your kali linux terminal Then Enter
 
 wget -q -O - https://archive.kali.org/archive-key.asc | apt-key add
 
-Your GPG Key Successfully Add In Kali Linux > Then Update Your Repositories Use This Command 
+Your GPG Key Successfully Add In Your Kali Linux > Then Update Your Repositories Use This Command 
 
 apt-get update
