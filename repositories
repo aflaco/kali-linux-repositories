@@ -11,3 +11,13 @@ deb http://http.kali.org/kali kali-rolling main contrib non-free
 deb http://kali.cs.nctu.edu.tw/kali kali-rolling main contrib non-free
 # For source package access, uncomment the following line
 # deb-src http://kali.cs.nctu.edu.tw/kali kali-rolling main contrib non-free
+
+
+Fix GPG error
+Type This Command on Your kali linux terminal Then Enter
+
+wget -q -O - https://archive.kali.org/archive-key.asc | apt-key add
+
+Your GPG Key Successfully Add In Kali Linux > Then Update Your Repositories Use This Command 
+
+apt-get update
